@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Test</title>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            clifford: '#da373d',
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <section class="min-h-screen flex justify-center items-center">
+            <div class="container">
+                <div class="flex flex-wrap">
+                    <div class="w-4/12 px-3">
+                        <img class="w-full rounded-md" src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg" alt="img">
+                        <p class="hidden cardText">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus soluta vero sit eveniet
+                            et
+                            non similique. Ipsa veniam consequuntur cum! Aliquam amet laudantium nihil sapiente veniam
+                            quam.
+                            Numquam, perferendis repellendus.
+                        </p>
+                        <button class="btn py-2 px-3 bg-red-500 text-white rounded-lg">click</button>
+                    </div>
+                    <div class="w-4/12 px-3">
+                        <img class="w-full rounded-md" src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg" alt="img">
+                        <p class="hidden cardText">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus soluta vero sit eveniet
+                            et
+                            non similique. Ipsa veniam consequuntur cum! Aliquam amet laudantium nihil sapiente veniam
+                            quam.
+                            Numquam, perferendis repellendus.
+                        </p>
+                        <button class="btn py-2 px-3 bg-red-500 text-white rounded-lg">click</button>
+                    </div>
+                    <div class="w-4/12 px-3">
+                    <img class="w-full rounded-md" src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg" alt="img">
+                        <p class="hidden cardText">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus soluta vero sit eveniet
+                            et
+                            non similique. Ipsa veniam consequuntur cum! Aliquam amet laudantium nihil sapiente veniam
+                            quam.
+                            Numquam, perferendis repellendus.
+                        </p>
+                        <button class="btn py-2 px-3 bg-red-500 text-white rounded-lg">click</button>
+                    </div>
+                </div>
+            </div>
+            <div id="cookies" class="max-w-[992px] bg-white p-3 shadow-2xl rounded-md bottom-9 left-9 fixed ">
+                <div class="flex">
+                    <div class="w-6/12 px-3">
+                        <h1 class="text-5xl font-bond mb-2">This site uses cookies</h1>
+                        <p class="text-normal">This site uses cookies small text files that are placed on your machine to help
+                            the site provide
+                            a better user experience. In general, cookies are used to retain user preferences, store
+                            information for things like shopping carts, and provide anonymized tracking data to third party
+                            applications like Google Analytics. Learn more</p>
+                    </div>
+                    <div class="w-6/12 px-3 flex justify-center items-center">
+                        <div class="flex gap-6">
+                            <button id="accept_Btn"
+                                class="py-3.5 px-16 border border-solid border-black hover:text-white hover:bg-black transition-all duration-300 font-bold bg-white rounded-[100px]">Accept</button>
+                            <button id="deny_Btn"
+                                class="py-3.5 px-16 border border-solid border-black hover:text-white hover:bg-black transition-all duration-300 font-bold bg-white rounded-[100px]">Deny</button>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+    <script src="/app.js"></script>
+
+    </body>
+
+</html>
